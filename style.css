@@ -48,10 +48,6 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #ddd;
-}
-
 .all-clear, .clear, .percent, .operator {
     background-color: #aaa;
     color: #333
@@ -73,7 +69,7 @@ button:hover {
         background-color: #ddd;
     }
     .all-clear, .clear, .operator, .percent {
-    background-color: #999;
+    background-color: #aaa;
     }
 
     /* ＝ ボタン（青色） */
