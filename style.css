@@ -72,6 +72,15 @@ button:hover {
     button:hover {
         background-color: #ddd;
     }
+    .all-clear, .clear, .operator, .percent {
+    background-color: #999;
+    }
+
+    /* ＝ ボタン（青色） */
+    .equals {
+        background-color: #0074d9;
+        color: white; /* 文字を白にして見やすく */
+    }
 }
 
 /* スマホなどで押した瞬間の手応えが欲しい場合は :active を使う */
