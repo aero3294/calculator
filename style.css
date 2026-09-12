@@ -46,8 +46,6 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    
-
 }
 
 button:hover {
@@ -67,4 +65,16 @@ button:hover {
 .number, .parentheses {
     background-color: #fff;
     color: #333
+}
+
+/* PCなど、マウス操作ができるデバイスのみ hover を効かせる */
+@media (hover: hover) {
+    button:hover {
+        background-color: #ddd;
+    }
+}
+
+/* スマホなどで押した瞬間の手応えが欲しい場合は :active を使う */
+button:active {
+    background-color: #bbb;
 }
